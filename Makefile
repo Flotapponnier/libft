@@ -1,50 +1,51 @@
 NAME	= libft.a
 
-SRCS	=	ft_atoi.c \
-			ft_atod.c \
-			ft_isspace.c \
-			ft_atof.c \
-			ft_bzero.c \
-			ft_calloc.c \
-			ft_isalnum.c \
-			ft_isalpha.c \
-			ft_isascii.c \
-			ft_isdigit.c \
-			ft_isprint.c \
-			ft_itoa.c \
-			ft_memchr.c \
-			ft_memcmp.c \
-			ft_memcpy.c \
-			ft_memmove.c \
-			ft_memset.c \
-			ft_putchar_fd.c \
-			ft_putendl_fd.c \
-			ft_putnbr_fd.c \
-			ft_putstr_fd.c \
+SRCS =		dynamic_memory_manipulation/ft_calloc.c \
+			char_classification/ft_isspace.c \
+			char_classification/ft_isalnum.c \
+			char_classification/ft_isalpha.c \
+			char_classification/ft_isascii.c \
+			char_classification/ft_isdigit.c \
+			char_classification/ft_isprint.c \
+			string_examination/ft_itoa.c \
+			memory_manipulation/ft_bzero.c \
+			memory_manipulation/ft_memchr.c \
+			memory_manipulation/ft_memcmp.c \
+			memory_manipulation/ft_memcpy.c \
+			memory_manipulation/ft_memmove.c \
+			memory_manipulation/ft_memset.c \
+			print_file_descriptor/ft_putchar_fd.c \
+			print_file_descriptor/ft_putendl_fd.c \
+			print_file_descriptor/ft_putnbr_fd.c \
+			print_file_descriptor/ft_putstr_fd.c \
 			ft_split.c \
-			ft_strchr.c \
-			ft_strdup.c \
-			ft_striteri.c \
+			string_examination/ft_atoi.c \
+			string_examination/ft_atod.c \
+			string_examination/ft_atof.c \
+			string_examination/ft_strchr.c \
+			string_examination/ft_strdup.c \
+			string_examination/ft_strlcat.c \
+			string_examination/ft_strlcpy.c \
+			string_examination/ft_strlen.c \
+			string_examination/ft_strrchr.c \
+			string_examination/ft_strncmp.c \
+			string_examination/ft_strcmp.c \
+			string_examination/ft_strnstr.c \
 			ft_strjoin.c \
-			ft_strlcat.c \
-			ft_strlcpy.c \
-			ft_strlen.c \
+			ft_striteri.c \
 			ft_strmapi.c \
-			ft_strncmp.c \
-			ft_strnstr.c \
-			ft_strrchr.c \
 			ft_strtrim.c \
 			ft_substr.c \
-			ft_tolower.c \
-			ft_toupper.c \
-			ft_lstnew.c \
-			ft_lstsize.c \
-			ft_lstlast.c \
-			ft_lstadd_back.c \
-			ft_lstdelone.c \
-			ft_lstclear.c \
-			ft_lstiter.c \
-			ft_lstmap.c \
+			char_manipulation/ft_tolower.c \
+			char_manipulation/ft_toupper.c \
+			list_function/ft_lstnew.c \
+			list_function/ft_lstsize.c \
+			list_function/ft_lstlast.c \
+			list_function/ft_lstadd_back.c \
+			list_function/ft_lstdelone.c \
+			list_function/ft_lstclear.c \
+			list_function/ft_lstiter.c \
+			list_function/ft_lstmap.c \
 			get_next_line/get_next_line.c \
 			get_next_line/my_strjoin.c \
 			ft_printf/srcs/ft_printf.c \
