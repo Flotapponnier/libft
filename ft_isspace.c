@@ -1,35 +1,19 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   ft_printf_digit.c                                  :+:      :+:    :+:   */
+/*   ft_isspace.c                                       :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: ftapponn <ftapponn@student.42heilbronn.de  +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2024/11/02 13:06:40 by ftapponn          #+#    #+#             */
-/*   Updated: 2024/11/21 16:35:24 by ftapponn         ###   ########.fr       */
+/*   Created: 2024/11/21 20:27:06 by ftapponn          #+#    #+#             */
+/*   Updated: 2024/11/21 20:27:09 by ftapponn         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "../../libft.h"
+#include "libft.h"
 
-int	ft_print_digit(int nb)
+int	ft_isspace(int c)
 {
-	char	*result;
-	int		i;
-
-	result = ft_itoa(nb);
-	if (!result)
-		return (-1);
-	i = 0;
-	while (result[i])
-	{
-		if (write(1, &result[i], 1) < 0)
-		{
-			free(result);
-			return (-1);
-		}
-		i++;
-	}
-	free(result);
-	return (i);
+	return (c == ' ' || c == '\t' || c == '\n' || c == '\v' || c == '\f'
+		|| c == '\r');
 }

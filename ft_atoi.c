@@ -6,7 +6,7 @@
 /*   By: ftapponn <ftapponn@student.42heilbronn.de  +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/10/07 18:42:25 by ftapponn          #+#    #+#             */
-/*   Updated: 2024/10/07 18:42:27 by ftapponn         ###   ########.fr       */
+/*   Updated: 2024/11/14 15:20:35 by ftapponn         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -38,6 +38,7 @@ int	ft_atoi(const char *str)
 	}
 	return (sign * result);
 }
+
 /*
 int main(void)
 {

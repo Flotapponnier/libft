@@ -1,6 +1,9 @@
 NAME	= libft.a
 
 SRCS	=	ft_atoi.c \
+			ft_atod.c \
+			ft_isspace.c \
+			ft_atof.c \
 			ft_bzero.c \
 			ft_calloc.c \
 			ft_isalnum.c \
@@ -54,7 +57,7 @@ SRCS	=	ft_atoi.c \
 
 OBJS	= ${SRCS:.c=.o}
 
-CC		= clang
+CC		= cc
 CFLAGS	= -Wall -Wextra -Werror -g
 
 .c.o:
