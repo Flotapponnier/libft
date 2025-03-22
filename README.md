@@ -28,7 +28,6 @@ make re       # Recompiles everything
 
 After compilation, a static library libft.a will be generated.
 
-2️⃣ Using Libft in Your Own Project
 To use libft in another project:
 
 Copy or clone libft inside your project directory.
