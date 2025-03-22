@@ -19,7 +19,7 @@
 To compile the **libft** library, use the **Makefile**:  
 
 
-<pre>```sh
+<pre>
 make          # Compiles libft.a  
 make clean    # Removes object files  
 make fclean   # Removes object files and the library  
