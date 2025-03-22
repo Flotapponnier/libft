@@ -36,6 +36,8 @@ Copy or clone libft inside your project directory.
 Add the following lines to your Makefile to compile and link libft with your project:
 
 # Makefile example for another project
+
+To use **libft** in another project, you need to compile it and link it with your program. The following **Makefile** snippet ensures that `libft.a` is built before compiling your own project:  
 <pre>
 LIBFT_DIR = ./libft
 LIBFT = $(LIBFT_DIR)/libft.a
