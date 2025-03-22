@@ -72,13 +72,9 @@ int main()
 }
 </pre>
 
-✅ Implemented Functions
-Function	Description
-ft_strlen	Computes the length of a string
-ft_memset	Fills a memory block with a specific value
-ft_strcpy	Copies a string
-...	More functions implemented
-📌 Notes
+
+
+Notes
 The library follows the 42 School coding style.
 
 No external libraries are used.
