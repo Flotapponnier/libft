@@ -74,7 +74,7 @@ int main()
 
 
 
-Notes
+##Notes
 The library follows the 42 School coding style.
 
 No external libraries are used.
