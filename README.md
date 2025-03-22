@@ -14,7 +14,7 @@
 
 ##  Installation & Usage  
 
-### ** Compiling Libft **  
+###  **Compiling Libft** 
 
 To compile the **libft** library, use the **Makefile**:  
 
