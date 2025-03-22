@@ -24,8 +24,7 @@ make          # Compiles libft.a
 make clean    # Removes object files  
 make fclean   # Removes object files and the library  
 make re       # Recompiles everything  
-```sh
-
+```
 After compilation, a static library libft.a will be generated.
 
 To use libft in another project:
@@ -37,7 +36,8 @@ Add the following lines to your Makefile to compile and link libft with your pro
 # Makefile example for another project
 
 To use **libft** in another project, you need to compile it and link it with your program. The following **Makefile** snippet ensures that `libft.a` is built before compiling your own project:  
-<pre>
+
+```sh
 LIBFT_DIR = ./libft
 LIBFT = $(LIBFT_DIR)/libft.a
 
@@ -54,12 +54,11 @@ fclean:
 	make fclean -C $(LIBFT_DIR)
 
 re: fclean all
-
-</pre>
+```
 
 Include libft.h in your source files:
 
-<pre>
+```c
 #include "libft.h"
 
 int main()
@@ -69,8 +68,7 @@ int main()
     printf("Length: %d\n", len);
     return (0);
 }
-</pre>
-
+```
 
 # Notes
 The library follows the 42 School coding style.
